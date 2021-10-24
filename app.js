@@ -3,9 +3,9 @@ const todos = [
 ];
 
 const cssClasses = {
-    pending:"bg-black w-full text-center text-purple-500 rounded py-4 border-2 border-purple-500 transition transform easein-out duration-300 hover:bg-purple-500 hover:text-white hover:scale-110 hover:rotate-1 cursor-pointer";
-    done: "bg-black w-full text-center text-pink-500 rounded py-4 border-2 border-pink-500 transition transform easein-out duration-300 hover:bg-pink-500 hover:text-white hover:scale-110 hover:-rotate-1 cursor-pointer";
-}
+    pending:"bg-black w-full text-center text-purple-500 rounded py-4 border-2 border-purple-500 transition transform easein-out duration-300 hover:bg-purple-500 hover:text-white hover:scale-110 hover:rotate-1 cursor-pointer",
+    done: "bg-black w-full text-center text-pink-500 rounded py-4 border-2 border-pink-500 transition transform easein-out duration-300 hover:bg-pink-500 hover:text-white hover:scale-110 hover:-rotate-1 cursor-pointer"
+};
 
 
 const pendingList =  document.getElementById('pendingList');
